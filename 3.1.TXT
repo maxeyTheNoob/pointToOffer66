@@ -20,7 +20,7 @@ public class Solution {
 			listNode=listNode.next;
 		}
 		ArrayList<Integer> reverse = new ArrayList<>();
-		while(!stack.isEmpty());{
+		while(!stack.isEmpty()){
 			reverse.add(stack.pop());
 		}
 		return reverse;
